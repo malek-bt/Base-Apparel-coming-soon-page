@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/malek-bt/Base-Apparel-coming-soon-page)
-- Live Site URL: [GitHub Pages Live URL]()
+- Live Site URL: [GitHub Pages Live URL](https://malek-bt.github.io/Base-Apparel-coming-soon-page/)
 
 ## My process
 
