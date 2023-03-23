@@ -96,7 +96,6 @@ input::placeholder {
 }
 
 #emailError {
-    color: red;
     display: none;
     padding-top: 0.25rem;
     padding-left: 1rem;
@@ -131,7 +130,7 @@ input::placeholder {
 }
 
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:770px) {
     body {
         padding-left: 7rem;
         background-image: url("images/bg-pattern-desktop.svg");
@@ -139,13 +138,13 @@ input::placeholder {
         display: grid;
         grid-template-columns: 55% 45%;
         grid-template-rows: 20vh 80vh;
-
+       
     }
 
     .left-side {
         grid-column: 1 /2;
         grid-row: 2/3;
-        width: 35vw;
+        width: 35vw; 
     }
 
     .header {
@@ -177,14 +176,15 @@ input::placeholder {
         text-align: start;
         font-size: 4rem;
         letter-spacing: .5rem;
-        font-weight: 700;
+        margin-top: 1rem;
+        font-weight: 700; 
 
     }
 
     p {
         text-align: start;
         padding-left: 0;
-
+        
     }
 
     form {
@@ -192,51 +192,31 @@ input::placeholder {
     }
 
     input {
-        width: 13rem;
+        position: relative;
+        width: 24rem;
+        max-width: 30rem;
+        
     }
-
+    input:focus {
+        outline: none;
+    }
     .btn1 {
-        width: 3rem;
-        transform: translate(80px);
-    }
-
-    .iconError {
-        transform: translate(-65px);
-
-    }
-
-
-}
-
-@media screen and (min-width:900px) {
-    input {
-
-        width: 35rem;
-
-    }
-
-    .btn1 {
-        width: 5rem;
+        
+        position: absolute;
+        width: 5.5rem;
         transform: translate(150px);
-
     }
 
     .iconError {
-        transform: translate(-80px);
+        position: absolute;
+        transform: translate(80px);
 
     }
 
-
-}
-
-@media screen and (min-width:1400px) {
-
-    .btn1 {
-
-        transform: translate(230px);
-
+    #emailError {
+       
+        width: 20rem;
+        text-align: center;
     }
-
-
-
 }
+
